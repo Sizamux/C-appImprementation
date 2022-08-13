@@ -1,0 +1,15 @@
+D:\Train\TestePraticoRemoto\obj\Debug\net6.0\TestePraticoRemoto.csproj.AssemblyReference.cache
+D:\Train\TestePraticoRemoto\obj\Debug\net6.0\TestePraticoRemoto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Train\TestePraticoRemoto\obj\Debug\net6.0\TestePraticoRemoto.AssemblyInfoInputs.cache
+D:\Train\TestePraticoRemoto\obj\Debug\net6.0\TestePraticoRemoto.AssemblyInfo.cs
+D:\Train\TestePraticoRemoto\obj\Debug\net6.0\TestePraticoRemoto.csproj.CoreCompileInputs.cache
+D:\Train\TestePraticoRemoto\bin\Debug\net6.0\TestePraticoRemoto.exe
+D:\Train\TestePraticoRemoto\bin\Debug\net6.0\TestePraticoRemoto.deps.json
+D:\Train\TestePraticoRemoto\bin\Debug\net6.0\TestePraticoRemoto.runtimeconfig.json
+D:\Train\TestePraticoRemoto\bin\Debug\net6.0\TestePraticoRemoto.dll
+D:\Train\TestePraticoRemoto\bin\Debug\net6.0\TestePraticoRemoto.pdb
+D:\Train\TestePraticoRemoto\obj\Debug\net6.0\TestePraticoRemoto.dll
+D:\Train\TestePraticoRemoto\obj\Debug\net6.0\refint\TestePraticoRemoto.dll
+D:\Train\TestePraticoRemoto\obj\Debug\net6.0\TestePraticoRemoto.pdb
+D:\Train\TestePraticoRemoto\obj\Debug\net6.0\TestePraticoRemoto.genruntimeconfig.cache
+D:\Train\TestePraticoRemoto\obj\Debug\net6.0\ref\TestePraticoRemoto.dll
