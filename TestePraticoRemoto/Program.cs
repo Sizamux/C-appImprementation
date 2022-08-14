@@ -63,7 +63,7 @@ namespace TestePraticoRemoto
             for (bool exit = false; !exit;)
             {
                 Console.Clear();//limpar tela
-                Console.WriteLine("Deseja adicionar mais alunos? \n1-Sim\n2-Não");
+                Console.WriteLine("Deseja adicionar mais Amostras? \n1-Sim\n2-Não");
                 ConsoleKey pressed = Console.ReadKey().Key;//apertar quallquer tecla
                 switch (pressed)//checar tecla para Menu 1
                 {
@@ -71,7 +71,7 @@ namespace TestePraticoRemoto
                         amostrasTemp = new List<int>();
                         for (bool exitVal = false; !exitVal;)
                         {
-                            Console.WriteLine("Deseja adicionar adicionar notas \n1-Sim\n2-Não");
+                            Console.WriteLine("Deseja adicionar notas de aluno \n1-Sim\n2-Não");
                             ConsoleKey pressed2 = Console.ReadKey().Key;
                             switch (pressed2)//checar tecla para Menu 2
                             {
@@ -102,19 +102,20 @@ namespace TestePraticoRemoto
             }
             Console.Clear();
             Console.WriteLine("\n\n-=Todos Alunos");
-            foreach (var aluno in alunosT)//Mostra todos os alunos e suas medias
+            //
+            List<int> intQuerry = new List<int>(); 
+            //
+            foreach (var aluno in alunosT)//Mostra os alunos com nota acima da media da amostra
             {
-                Console.WriteLine(aluno.media);
+                Console.WriteLine("Media da amostra:"+aluno.media);
+                intQuerry = aluno.amostra.Where(i => i >= aluno.media).ToList();//lambda de ppesquisa em amostra List<Int>
+                Console.Write("\n");
+                foreach (var i in intQuerry)
+                {
+                    Console.Write(i+" ");
+                }
             }
-            
-            Console.WriteLine("\n\n-=Alunos Acima da media");
-            //Cria uma nova Lista a partir de uma querry Sinq    // Ordena por media de aluno onde o aluno tem a media acima de 50
-            List<Aluno> sortQuerry2 = alunosT.OrderBy(aluno => aluno.media).Where(aluno => aluno.media >= 50).ToList(); //ToList -> parse/convercao para lista
-            //Mostra todos os alunos com medias a partir de 50%
-            foreach (var aluno in sortQuerry2)
-            {
-                Console.WriteLine(aluno.media);
-            }
+            Console.Write("\n");
             Console.ReadKey();
         } 
     }
