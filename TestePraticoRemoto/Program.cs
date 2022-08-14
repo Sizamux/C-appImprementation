@@ -107,9 +107,9 @@ namespace TestePraticoRemoto
             //
             foreach (var aluno in alunosT)//Mostra os alunos com nota acima da media da amostra
             {
-                Console.WriteLine("Media da amostra:"+aluno.media);
+                Console.WriteLine("\nMedia da amostra:"+aluno.media);
                 intQuerry = aluno.amostra.Where(i => i >= aluno.media).ToList();//lambda de ppesquisa em amostra List<Int>
-                Console.Write("\n");
+                Console.Write("\nnotas acima da media:");
                 foreach (var i in intQuerry)
                 {
                     Console.Write(i+" ");
